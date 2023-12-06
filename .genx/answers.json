@@ -1,0 +1,38 @@
+{
+  "setApiHost": true,
+  "apiHost": "ws://localhost/gwf/",
+  "enableSSO": false,
+  "groupId": "global.genesis",
+  "applicationVersion": "1.0.0-SNAPSHOT",
+  "appName": "position-app",
+  "pkgName": "position-app",
+  "directory": "position-app",
+  "appSeed": {
+    "type": "remote",
+    "about": "Genesis Blank App Seed",
+    "remoteUser": "genesiscommunitysuccess",
+    "remoteRepo": "blank-app-seed",
+    "remoteBranch": "v1.3.0",
+    "subdir": ""
+  },
+  "rootElement": "positionapp-root",
+  "localGenId": "POSITION_APP",
+  "applicationVersionWeb": "1.0.0",
+  "versions": {
+    "UI": "14.73.0",
+    "GSF": "6.7.0",
+    "Auth": "6.7.0"
+  },
+  "useDocker": false,
+  "additions": [
+    {
+      "type": "remote",
+      "name": "positions-app-seed",
+      "about": "Position app seed",
+      "remoteUser": "genesiscommunitysuccess",
+      "remoteRepo": "positions-app-seed",
+      "remoteBranch": "main",
+      "subdir": ""
+    }
+  ]
+}
